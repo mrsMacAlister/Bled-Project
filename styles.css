@@ -1,0 +1,34 @@
+h1 {
+  font-family: "Ballet", cursive;
+  font-weight: 500;
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: 90px;
+  color: rgb(250, 250, 250);
+  /*rgb(230, 245, 255);*/
+}
+h2,
+h3 {
+  font-family: "MonteCarlo", cursive;
+  text-align: center;
+  color: rgba(250, 250, 250, 100%);
+  font-size: 40px;
+}
+p {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.spare-font {
+  font-family: "Cinzel Decorative", cursive;
+}
+.magical-font {
+  font-family: "IM Fell English SC", serif;
+}
+
+.hero {
+  background-image: url(images/blejski-otok-banner-1024x405.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  height: 90vh;
+}
