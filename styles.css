@@ -1,3 +1,9 @@
+.navbar-logo {
+  font-family: cursive, "Ballet";
+  font-style: italic;
+  font-size: x-large;
+}
+
 .hero {
   background-image: url(images/blejski-otok-banner-1024x405.jpeg);
   background-size: cover;
@@ -65,6 +71,7 @@ a {
 .activities {
   text-align: center;
   padding: 40px 0;
+  background: rgb(248, 249, 250);
 }
 
 .col {
@@ -82,4 +89,11 @@ a {
     margin-bottom: 195px;
     margin-top: 10px;
   }
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  background: rgb(248, 249, 250);
+  font-size: small;
 }
