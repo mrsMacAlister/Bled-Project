@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+.nav-link {
+  font-size: 2.3vh;
+}
+
 .hero {
   background-image: url(images/blejski-otok-banner-1024x405.jpeg);
   background-size: cover;
@@ -22,6 +26,23 @@
     padding-top: 160px;
     height: 90vh;
   }
+  .hero-main-title {
+    font-size: 10px;
+  }
+}
+
+.hero-main-title {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-subtitle {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .spare-font {
@@ -64,12 +85,13 @@ h3.title {
 
 h2,
 p,
-a {
+a,
+footer {
   font-family: "Cormorant Garamond", serif;
 }
 
 h2 {
-  font-size: 7vh;
+  font-size: 4.5vh;
   line-height: 1.5;
 }
 
@@ -80,7 +102,7 @@ p {
 button.accordion-button {
   font-family: "Cormorant Garamond", serif;
   font-weight: 700;
-  font-size: 4vh !important;
+  font-size: 3.5vh !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -133,5 +155,5 @@ footer {
   text-align: center;
   padding: 40px 0;
   background: rgb(248, 249, 250);
-  font-size: small;
+  font-size: medium;
 }
