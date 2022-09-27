@@ -12,6 +12,7 @@
 
 .nav-link {
   font-size: 2.3vh;
+  color: black !important;
 }
 
 .hero {
@@ -21,6 +22,7 @@
   padding-top: 110px;
   height: 90vh;
   text-align: center;
+  position: relative;
 }
 
 @media (max-width: 768px) {
@@ -40,14 +42,14 @@
 
 .hero-main-title {
   position: absolute;
-  top: 48%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .hero-subtitle {
   position: absolute;
-  top: 74%;
+  top: 71%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -138,7 +140,7 @@ button.accordion-button {
   border-radius: 10px;
 }
 
-.container {
+section.container {
   margin: auto;
 }
 
